@@ -163,4 +163,16 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
     .tm-menu-item-2 img {
         margin-bottom: 10px;
     }
+   /* Add this CSS */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    flex: 1 0 300px; /* Adjust the width as needed */
+    margin: 0 10px; /* Adjust spacing between items */
+}
+
 }
